@@ -13,11 +13,12 @@
 
 function asciify(img, width, doHtml, doColour) {
     var characterSet = ' .:,;+ijtfLGDKW#';
+    var ratio = 0.5; // Adjust the height to allow for the fact that characters usually have a different aspect ratio than pixels
     // var characterSet = '#WKDGLftji+;,:. '; // use inverted set if you're using white text on dark background.
 
     // Create an empty canvas element
     var canvas = document.createElement('canvas');
-    var height = (width / img.width) * img.height;
+    var height = (width / img.width * img.height) * ratio;
     canvas.width = width;
     canvas.height = height;
 
