@@ -28,7 +28,7 @@ function asciify(img, width, doHtml, doColour) {
     // Get the image data
     var imageData = ctx.getImageData(0, 0, width, height).data;
     
-    var pixelArr = [], lineStr, imgStr, y, x;
+    var pixelArr = [], lineStr = '', imgStr = '', y, x;
 
     for (y = 0; y < height - 1; y++) { // Loop through the lines
         for (x = 0; x < width; x++) { // Loop through the pixels in this line
