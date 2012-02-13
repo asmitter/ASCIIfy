@@ -1,1 +1,12 @@
-ASCIIfy
+/* 
+ * ASCIIfy - give it an IMG element and it'll give you ASCII art back as text or HTML
+ * Created by Andy Smith - http://twitter.com/asmitter
+ * Only really tested in Chromium & Webkit so far, Needs <CANVAS> support, so no IE
+ * Distributed under "Do What You Wish", but ping me if you use it for anything cool.
+ *
+ * @params	{element}	img			DOM node of <img> element
+ * @params	{integer}	width		Width of the resulting ASCII image (in characters)
+ * @params	{boolean}	doHtml		whether to return HTML or plain text
+ * @param	{boolean}	doColour	whether to colourise the output. Only work if doHTML is set to true
+ * @return	{string}
+ */
