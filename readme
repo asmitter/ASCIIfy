@@ -4,9 +4,9 @@
  * Only really tested in Chromium & Webkit so far, Needs <CANVAS> support, so no IE
  * Distributed under "Do What You Wish", but ping me if you use it for anything cool.
  *
- * @params	{element}	img		DOM node of <img> element
- * @params	{integer}	width		Width of the resulting ASCII image (in characters)
- * @params	{boolean}	doHtml		whether to return HTML or plain text
- * @param	{boolean}	doColour	whether to colourise the output. Only work if doHTML is set to true
- * @return	{string}
+ * @params  {element}   img         DOM node of <img> element
+ * @params  {integer}   width       Width of the resulting ASCII image (in characters)
+ * @params  {boolean}   doHtml      whether to return HTML or plain text
+ * @param   {boolean}   doColour    whether to colourise the output. Only work if doHTML is set to true
+ * @return  {string}
  */
